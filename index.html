@@ -22,8 +22,26 @@
         border-radius: 35px;
         overflow: hidden; 
         }
+
+        h1, h3{
+            margin-left: 2vh;
+            margin-top: 2vh;
+        }
+
+        h3{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 2vh;
+        }
+
         h4{
             color:lightgoldenrodyellow;
+        }
+
+        .carousel-caption h4, 
+        .carousel-caption h5, 
+        .carousel-caption p {
+        text-shadow: 2px 2px 4px rgba(0,0,0,1);
         }
 
     </style>
@@ -48,7 +66,7 @@
           </nav>
     </header>
     <h1>Nuestras delicias</h1>
-    <p>Todo esto y más es lo que puedes encontrar en nuestras sucursales</p>
+    <p style="margin-left: 3vh;">Todo esto y más es lo que puedes encontrar en nuestras sucursales</p>
     <h3>Sandwiches</h3>
     <div id="carouselSandwich" class="carousel slide">
         <div class="carousel-indicators">
@@ -103,7 +121,7 @@
           <div class="carousel-item active">
             <img src="imagenes/menu/fideos.png" class="d-block w-100" alt="Fideos a la boloñesa">
             <div class="carousel-caption d-md-block">
-              <h5 style="color:#2e7d32; font-weight: bold ;">Fideos a la boloñesa</h5>
+              <h5 style="color: whitesmoke; font-weight: 700;">Fideos a la boloñesa</h5>
               <h4 style="color: #1c1c1c;">$6990</h4>
               <p>Salsa de carne casera y queso rallado</p>
             </div>
@@ -188,7 +206,7 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="imagenes/menu/arroz-con-leche.png" class="d-block w-100" alt="Arroz con leche">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption d-md-block">
               <h5>Arroz con leche</h5>
               <h4>$1490</h4>
               <p>Clásico postre cremoso con canela</p>

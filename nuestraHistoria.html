@@ -7,6 +7,42 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="CSS/styles.css">
     <title>Nuestra Historia</title>
+    <style>
+        h1, h3{
+        display: flex;
+        justify-content: center;
+        }
+        .origen{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+            padding: 2rem;
+            flex-wrap: wrap;
+        }
+        .parrafo-origen p{
+            flex: 1;
+            min-width: 400px;
+            max-width: 600px;
+        }
+
+        .imagen-origen{
+            flex: 1;
+            min-width: 300px;
+            max-width: 500px; 
+        }
+        .imagen-origen img{
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            border-radius: 5%;
+        }
+        .hitos{
+            margin-bottom: 3%;
+        }
+    </style>
+
 </head>
 <body>
     <header>
@@ -28,7 +64,164 @@
         </nav>
     </header>
 
+    <main>
+        <div>
+            <h1>Nuestra historia</h1>
+            <h3>50 años alimentando el alma (y el apetito)</h3>
+        </div>
+        <div class="origen">
+            <div class="parrafo-origen">
+                <div class="card w-100 " >
+                    <div class="card-body">
+                      <p class="card-text">Todo comenzó en 1974, cuando don <b>Pedro Gutiérrez</b>, apasionado por la cocina chilena, abrió una pequeña fuente de soda en el corazón del barrio <b>Las Ánimas</b>. Con una plancha, recetas caseras y una sonrisa permanente, nació “El Aniquilador del Hambre”. <br>
+                      <br>
+                      Desde sus inicios, el local fue reconocido por su atención cercana, sus sandwich gigantes y ese sabor que recordaba a casa. <b>El chacarero</b>, la estrella del menú, se convirtió en una leyenda local.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="imagen-origen">
+                <img src="imagenes/historia/pedro.jpg">    
+            </div>
+        </div>
+        <div class="hitos">
+            <h3><u>Algunos de nuestros hitos:</u></h3>
+            <div class="container" style="margin-top: 3%;">
+                <div class="row">
+                    <div class="col-md-6 mb-4">
+                        <div class="card h-100">
+                          <div class="row g-0">
+                            <div class="col-md-4">
+                              <img src="imagenes/historia/1974.jpeg" class="img-fluid rounded-start" alt="restorant antiguo">
+                            </div>
+                            <div class="col-md-8">
+                              <div class="card-body">
+                                <h5 class="card-title">1974 - Fundación</h5>
+                                <p class="card-text">Don Pedro abre la primera fuente de soda en Las Ánimas.</p>
+                                <p class="card-text"><small class="text-muted">Hace 50 años</small></p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="card h-100">
+                          <div class="row g-0">
+                            <div class="col-md-4">
+                              <img src="imagenes/menu/chacarero.png" class="img-fluid rounded-start" alt="chacarero">
+                            </div>
+                            <div class="col-md-8">
+                              <div class="card-body">
+                                <h5 class="card-title">1979 - Nace el Chacarero Estrella</h5>
+                                <p class="card-text">Se incorpora el chacarero casero al menú. Desde entonces, se convierte en el más pedido.</p>
+                                <p class="card-text"><small class="text-muted">Hace 45 años</small></p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="card h-100">
+                          <div class="row g-0">
+                            <div class="col-md-4">
+                              <img src="imagenes/historia/menu-dia.jpg" class="img-fluid rounded-start" alt="pizarron menu dia">
+                            </div>
+                            <div class="col-md-8">
+                              <div class="card-body">
+                                <h5 class="card-title">1985 - Incorporación del menú del día</h5>
+                                <p class="card-text">Se lanza el menú diario con platos caseros como porotos y lentejas.</p>
+                                <p class="card-text"><small class="text-muted">Hace 40 años</small></p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="card h-100">
+                          <div class="row g-0">
+                            <div class="col-md-4">
+                              <img src="imagenes/historia/centro-valdivia.jpg" class="img-fluid rounded-start" alt="centro Valdivia">
+                            </div>
+                            <div class="col-md-8">
+                              <div class="card-body">
+                                <h5 class="card-title">2000 - Apertura sucursal en el Centro</h5>
+                                <p class="card-text">Abre la segunda sede en el corazón de Valdivia.</p>
+                                <p class="card-text"><small class="text-muted">Hace 25 años</small></p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="card h-100">
+                          <div class="row g-0">
+                            <div class="col-md-4">
+                              <img src="imagenes/historia/Schneider.jpg" class="img-fluid rounded-start" alt="local Schneider">
+                            </div>
+                            <div class="col-md-8">
+                              <div class="card-body">
+                                <h5 class="card-title">2010 - Apertura sucursal Schneider</h5>
+                                <p class="card-text">Se inaugura la tercera sucursal para ampliar cobertura en Valdivia.</p>
+                                <p class="card-text"><small class="text-muted">Hace 15 años</small></p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="card h-100">
+                          <div class="row g-0">
+                            <div class="col-md-4">
+                              <img src="imagenes/historia/chacarero2.jpg" class="img-fluid rounded-start" alt="chacarero">
+                            </div>
+                            <div class="col-md-8">
+                              <div class="card-body">
+                                <h5 class="card-title">2019 - Premio al mejor chacarero</h5>
+                                <p class="card-text">Gana el 1° lugar en la "Ruta del Chacarero de Chile".</p>
+                                <p class="card-text"><small class="text-muted">Hace 6 años</small></p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="testimonios">
+            <h3><u>Qué dicen nuestros clientes:</u></h3>
+            <div class="container" style="margin-top: 2%;">
+                <div class="row">
+                    <div class="col-md-4 mb-2">
+                        <div class="card h-100">
+                            <img src="imagenes/historia/ernesto.jpg" class="card-img-top" alt="adulto mayor">
+                            <div class="card-body">
+                              <h5 class="card-title">Don Ernesto, 76 años</h5>
+                              <p class="card-text">“Hace más de 40 años que vengo al Aniquilador. El chacarero sigue teniendo el mismo sabor casero de siempre. Me recuerda a cuando mi señora me preparaba uno en casa.”</p>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-md-4 mb-2">
+                        <div class="card h-100">
+                            <img src="imagenes/historia/carla.jpg" class="card-img-top" alt="adulta">
+                            <div class="card-body">
+                              <h5 class="card-title">Carla, 38 año</h5>
+                              <p class="card-text">“Me encanta venir con mis hijos. Todo es abundante, sabroso y a buen precio. El menú del día siempre sorprende, y la atención es como de barrio: cercana y rápida.”</p>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-md-4 mb-2">
+                        <div class="card h-100">
+                            <img src="imagenes/historia/benjamin.jpg" class="card-img-top" alt="niño">
+                            <div class="card-body">
+                              <h5 class="card-title">Benjamín, 9 años</h5>
+                              <p class="card-text">“¡El completo gigante es mi favorito! Me gusta porque tiene harta mayo y me dejan elegir cuánto ají le pongo. Y siempre me dan juguito mientras espero.”</p>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
+    </main>
 
     <footer class="mi-footer">
         <h6>Siguenos en nuestras redes:</h5>
