@@ -4,10 +4,20 @@ html, body {
     padding: 0;
   }
 
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 header {
     height: 10vh;       
     min-height: 60px;    
     max-height: 100px; 
+  }
+
+main {
+    flex: 1;
   }
 
 .navbar{
@@ -62,23 +72,29 @@ body{
     flex-direction: column;
     font-size: small;
     background-color:#eadcbbbb;
-    min-height: 15vh;
-   margin-top: 1%;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 1%;
+    padding: 2% 6%;
+    margin-top: 2%;
+    min-height: 20vh;
+    height: auto; 
+    width: 100%; 
+    flex-wrap: wrap;
+    box-sizing: border-box;
 }
 
 .footer-bloques {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 3rem;
-    flex-wrap: wrap
+    gap: 2rem;
+    flex-wrap: wrap;
+    max-width: 100%;
+    box-sizing: border-box;
 }
+
 .mi-footer img{
     width: 1.5vw;
-    max-width: 100px;
+    max-width: 100%;
+    height: auto;
   }
 
 .numeros-whatsapp img{
@@ -86,11 +102,11 @@ body{
     max-width: 100px;
 }
 
-.mi-footer .logo-central {
-    width: 30vw;
+/* .mi-footer .logo-central {
+    width: 100px;
     height: auto;
     object-fit: contain;
-  }
+  } */
 
 .footer-left {
     display: flex;
@@ -105,20 +121,26 @@ body{
     .footer-bloques {
       flex-direction: column;
       align-items: center;
-      gap: 2rem; 
+      gap: 1rem; 
+      width: 100%;
+      box-sizing: border-box;
+      
     }
   
-    .mi-footer .logo-central {
-      width: 40vw;
-      max-width: 200px;
-    }
+    /* .mi-footer .logo-central {
+      width: 60px;
+      max-width: 100px;
+    } */
   
     .mi-footer img {
-      width: 4vw;
+      width: 3vw;
+      max-width: 10%;
+      object-fit: contain;
+      ;
     }
   
     .numeros-whatsapp img {
-      width: 3vw;
+      width: 2vw;
     }
   
     .footer-left,
